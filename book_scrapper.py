@@ -1,7 +1,9 @@
-import requests
-from bs4 import BeautifulSoup
 import sqlite3
+import requests
 
+from bs4 import BeautifulSoup
+
+# GIT Tutorial
 # git config --global user.name "Ramesh Pradhan"
 # git config --global user.email "pyrameshpradhan@gmail.com"
 
