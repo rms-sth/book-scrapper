@@ -1,5 +1,5 @@
-import sqlite3
 import requests
+import sqlite3
 
 from bs4 import BeautifulSoup
 
@@ -7,6 +7,12 @@ from bs4 import BeautifulSoup
 # git config --global user.name "Ramesh Pradhan"
 # git config --global user.email "pyrameshpradhan@gmail.com"
 
+###################################
+# 1. change the code
+# 2. git add .
+# 3. git commit -m "Your message"
+# 4. git push origin
+###################################
 def create_database():
     conn = sqlite3.connect("books.sqlite3")
     cursor = conn.cursor()
